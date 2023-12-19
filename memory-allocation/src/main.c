@@ -2,12 +2,12 @@
 
 int main()
 {	
-	int stringsQuantity = getStringsQuantity();
-	char **stringsArray = allocateMemory(stringsQuantity);
-	
-	clearInputBuffer();
-	handleAllocateString(stringsQuantity, stringsArray);
-	printStringsArray(stringsQuantity, stringsArray);
+  int stringsQuantity = getStringsQuantity();
+  char **stringsArray = allocateMemory(stringsQuantity);
+  
+  clearInputBuffer();
+  handleAllocateString(stringsQuantity, stringsArray);
+  printStringsArray(stringsQuantity, stringsArray);
 
-	return 0;
+  return 0;
 }
