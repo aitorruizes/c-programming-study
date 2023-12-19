@@ -2,11 +2,11 @@
 
 int main()
 {
-	int numberPattern = getNumberFromInput();
-	int patternSize = calculatePatternSize(numberPattern);
+  int numberPattern = getNumberFromInput();
+  int patternSize = calculatePatternSize(numberPattern);
 
-	handlePrintPattern(numberPattern, patternSize);
-	
-	return 0;
+  handlePrintPattern(numberPattern, patternSize);
+  
+  return 0;
 }
 
